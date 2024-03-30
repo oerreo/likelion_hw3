@@ -1,0 +1,160 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@font-face {
+    font-family: "GmarketSans";
+    src: url("../font/GmarketSansTTFMedium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --color-main-black: #3E3E3E;
+    --color-main-orange: #FE9519;
+    --color-main-white: #FFFFFF;
+}
+
+.assignment_title_div{
+    width: 620px;
+    display: flex;
+    justify-content: flex-start;
+/*<!--"안에서 item 상하 정렬" -->*/
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.assignment_title{
+    display: flex;
+    font-family: "GmarketSans";
+    font-weight: normal;
+    margin-left: 10px;
+}
+.book-btn{
+    display: flex;
+    width: 35px;
+    height: 35px;
+}
+
+.assignment_box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d9d9d9;
+    width: 560px;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.assignment_txt_div{
+    display: block;
+    width: 560px;
+    height: auto;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.assignment_category{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+.assignment_goal{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 0;
+}
+.assignment_deadline_date, .assignment_deadline_time{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-orange);
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 0;
+}
+.assignment_sub_div{
+    display: block;
+    flex-direction: column;
+}
+.assignment_subtitle{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    width: 410px;
+    font-size: 18px;
+    margin: 0 auto;
+   /* <!-- "뒤에 쓴 게 윗 코드 덮어쓰기" -->*/
+    margin-top: 30px;
+
+    font-weight: bold;
+}
+.assignment_check_box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--color-main-orange);
+    width: 370px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px auto;
+}
+h5{
+    font-family: "Noto Sans KR";
+    margin: 0px;
+}
+h6{
+    font-family: "Noto Sans KR";
+    margin-top: 30px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.file_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--color-main-orange);
+    width: 410px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+.file_name{
+    font-family: "Noto Sans KR";
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-left: 10px;
+    margin: 0;
+
+}
+.file_add_div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 410px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.file-clip{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.file_add_title{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-orange);
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+}
+/*<!-- id는 #id -->*/

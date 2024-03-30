@@ -1,0 +1,99 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@font-face {
+    font-family: "GmarketSans";
+    src: url("../font/GmarketSansTTFMedium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --color-main-black: #3E3E3E;
+    --color-main-orange: #FE9519;
+    --color-main-white: #FFFFFF;
+}
+
+.hw_top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.hw_assign_btn_div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.hw_assign_btn{
+    width: 123px;
+    height: 49px;
+    font-family: "Noto Sans KR";
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-main-orange);
+    color: #FFFFFF;
+}
+.hw_list_title_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-btn{
+     display: flex;
+     width: 35px;
+     height: 35px;
+ }
+.hw_list_title{
+    display: flex;
+    font-family: "GmarketSans";
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.hw_box_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.hw_box{
+    display: flex;
+    width: 574px;
+    height: 91px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: none;
+}
+.hw_category{
+    font-family: "Noto Sans KR";
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0;
+}
+.hw_title{
+    font-family: "Noto Sans KR";
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.hw_deadline{
+    display: flex;
+    font-family: "Noto Sans KR";
+    font-size: 12px;
+    font-weight: normal;
+    color: var(--color-main-orange);
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 0;
+}
