@@ -47,6 +47,7 @@
     padding: 30px;
     margin: 0 auto;
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 .assignment_txt_div{
     display: block;
@@ -106,6 +107,16 @@
     border-radius: 8px;
     padding: 20px;
     margin: 10px auto;
+}
+.assignment_check_box::-webkit-scrollbar{
+    width: 15px;
+}
+
+.assignment_check_box::-webkit-scrollbar-thumb{
+    background-color: var(--color-main-orange);
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 3px solid transparent;
 }
 h5{
     font-family: "Noto Sans KR";

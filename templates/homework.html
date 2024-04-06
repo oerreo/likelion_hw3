@@ -5,10 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/homework.css">
+    <link rel="stylesheet" href="./../css/homework.css">
+    <script src="../js/base.js"></script>
+
     <title>Assignment</title>
 </head>
 <body>
+<div nav-include-path="./layout/navbar.html"> <!--태그-->
+    <script>LoadNAVBAR();</script>
+</div>
     <div class = "assignment_title_div">
         <img src="../img/img/book-btn.png" alt="book-btn" class="book-btn">
         <h3 class = "assignment_title">과제 제출</h3>
@@ -38,10 +43,10 @@
             <p class = "assignment_subtitle">과제 제출하기</p>
             <div id="fileContainer">
                 <div class="file_box">
-                    <p class = "file_name">Java세션_은행계좌만들기_oreo.java</p>
+                    <p class = "file_name">&lt&#47&gt Java세션_은행계좌만들기_oreo.java</p>
                 </div>
                 <div class="file_box">
-                    <p class = "file_name">Java세션_은행계좌만들기_고태훈.java</p>
+                    <p class = "file_name">&lt&#47&gt Java세션_은행계좌만들기_고태훈.java</p>
                 </div>
             </div>
         </div>
@@ -50,5 +55,8 @@
             <p class="file_add_title">파일 추가하기</p>
         </div>
     </div>
+<div footer-include-path="./layout/footer.html"> <!--태그-->
+    <script>LoadFOOTER();</script>
+</div>
 </body>
 </html>

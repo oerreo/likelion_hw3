@@ -5,10 +5,16 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/introduce.css">
+
+    <link rel="stylesheet" href="./../css/introduce.css">
+    <script src="../js/base.js"></script>
+
     <title>Oreo's page</title>
 </head>
 <body>
+<div nav-include-path="./layout/navbar.html"> <!--태그-->
+    <script>LoadNAVBAR();</script>
+</div>
     <div class="page">
         <div class ="info_page">
             <img src="../img/img/info.PNG" alt="selfie" class="selfie">
@@ -30,8 +36,8 @@
                 </ul>
             </div>
         </div>
-        <img src="../img/img/point.png" alt="point" class="point">
-        <div class="favorite">
+        <a href="#favorite"><img src="../img/img/point.png" alt="point" class="point"></a>
+        <div id="favorite" class="favorite">
             <h1 class="fav_title">My Favorites</h1>
             <div class ="fav_page">
                 <div class="picture_banner">
@@ -60,7 +66,9 @@
                 </div>
             </div>
         </div>
-
     </div>
+<div footer-include-path="./layout/footer.html"> <!--태그-->
+    <script>LoadFOOTER();</script>
+</div>
 </body>
 </html>

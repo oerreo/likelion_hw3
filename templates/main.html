@@ -5,10 +5,16 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/main.css">
-    <title>Document</title>
+
+    <title>항공대 멋사 LMS</title>
+    <link rel="stylesheet" href="./../css/main.css">
+    <script src="../js/base.js"></script>
+
 </head>
 <body>
+<div nav-include-path="./layout/navbar.html"> <!--태그-->
+    <script>LoadNAVBAR();</script>
+</div>
     <div class="hw_top">
         <div class="hw_assign_btn_div">
             <button class="hw_assign_btn">과제부여하기</button>
@@ -17,6 +23,7 @@
             <img src="../img/img/book-btn.png" alt="book-btn" class="book-btn">
             <p class = "hw_list_title">과제 목록</p>
         </div>
+    </div>
         <div class="hw_box_div">
             <button class="hw_box">
                 <p class="hw_category">[과제 : 깃]</p>
@@ -39,7 +46,8 @@
                 <p class="hw_deadline">3월27일 월요일 19시까지</p>
             </button>
         </div>
-    </div>
-
+<div footer-include-path="./layout/footer.html"> <!--태그-->
+    <script>LoadFOOTER();</script>
+</div>
 </body>
 </html>

@@ -6,11 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../../css/navbar.css">
+
 </head>
 <body>
     <nav class="navbar">
         <div class="homebtn_div">
-            <button class="likelionlogo_btn">
+            <button type="button" onclick="location.href='../../../LikeLionLMS_FE/templates/main.html'" class="likelionlogo_btn">
                 <img src="../../img/img/kau_likelion.png" alt="logo" class="kau_likelion_logo">
                 HOME
             </button>
@@ -20,9 +21,13 @@
             <p class="kau_title">KoreaAerospaceUniversity</p>
         </div>
         <div class="assignment_nav">
-            <button class="homework_btn">
+            <button type="button" onclick="location.href='../../../LikeLionLMS_FE/templates/homework.html'" class="homework_btn">
+                <img src="../../img/img/backpack.png" alt="backpack" class="assignment_backpack">
+                목록
+                <!-- 아래처럼 쓰면 css 충동이 날 수도 있다고 함.
                 <a href="#"><img src="../../img/img/backpack.png" alt="backpack" class="assignment_backpack"></a>
                 <a href="#" class="homework_list">목록</a>
+                -->
             </button>
         </div>
     </nav>
